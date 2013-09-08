@@ -1,0 +1,18 @@
+# project  configured on Sun Sep  8 17:56:19 2013 by
+# waf 1.7.0 (abi 98, python 20704f0 on linux2)
+# using ./waf configure
+#
+----------------------------------------
+Setting top to
+/home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche
+----------------------------------------
+Setting out to
+/home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/build
+----------------------------------------
+Checking for program gcc,cc
+arm-none-eabi-gcc
+find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
+----------------------------------------
+Checking for program ar
+arm-none-eabi-ar
+find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
