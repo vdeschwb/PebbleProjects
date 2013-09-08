@@ -1,0 +1,881 @@
+Archive member included because of file (symbol)
+
+/home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                              src/main.c.1.o (app_event_loop)
+/home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+                              src/main.c.1.o (__aeabi_fmul)
+/home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+                              src/main.c.1.o (__aeabi_f2iz)
+
+Allocating common symbols
+Common symbol       size              file
+
+latLayer            0x38              src/main.c.1.o
+window              0x58              src/main.c.1.o
+lonLayer            0x38              src/main.c.1.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .init          0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .fini          0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .text          0x00000000       0x68 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .bss           0x00000000       0x1c /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .eh_frame      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .text          0x00000000        0x0 src/http.c.1.o
+ .bss           0x00000000        0x0 src/http.c.1.o
+ .text.http_out_get
+                0x00000000       0x4c src/http.c.1.o
+ .text.http_out_send
+                0x00000000       0x10 src/http.c.1.o
+ .text.http_time_request
+                0x00000000       0x2a src/http.c.1.o
+ .text.http_cookie_set_start
+                0x00000000       0x3c src/http.c.1.o
+ .text.http_cookie_set_end
+                0x00000000       0x10 src/http.c.1.o
+ .text.http_cookie_get_multiple
+                0x00000000       0x6c src/http.c.1.o
+ .text.http_cookie_delete_multiple
+                0x00000000       0x6c src/http.c.1.o
+ .text.http_cookie_fsync
+                0x00000000       0x34 src/http.c.1.o
+ .text.http_cookie_set_int
+                0x00000000       0x36 src/http.c.1.o
+ .text.http_cookie_set_cstring
+                0x00000000       0x2a src/http.c.1.o
+ .text.http_cookie_set_data
+                0x00000000       0x2e src/http.c.1.o
+ .text.http_cookie_get
+                0x00000000       0x12 src/http.c.1.o
+ .text.http_cookie_delete
+                0x00000000       0x12 src/http.c.1.o
+ .text.http_cookie_set_int32
+                0x00000000       0x18 src/http.c.1.o
+ .text.http_cookie_set_uint32
+                0x00000000       0x18 src/http.c.1.o
+ .text.http_cookie_set_int16
+                0x00000000       0x18 src/http.c.1.o
+ .text.http_cookie_set_uint16
+                0x00000000       0x18 src/http.c.1.o
+ .text.http_cookie_set_int8
+                0x00000000       0x16 src/http.c.1.o
+ .text.http_cookie_set_uint8
+                0x00000000       0x18 src/http.c.1.o
+ .text          0x00000000        0x0 src/main.c.1.o
+ .bss           0x00000000        0x0 src/main.c.1.o
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_delay
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_duration
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_curve
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_handlers
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_implementation
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_get_context
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_schedule
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule_all
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_is_scheduled
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_timer_send_event
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_timer_cancel_event
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_init_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_deinit_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.cos_lookup
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_load_custom_font
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_unload_custom_font
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_stroke_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_fill_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_text_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_compositing_mode
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_pixel
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_line
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_rect
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_circle
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_circle
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_round_rect
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.get_time
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_move_to
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_rotate_to
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_outline
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_filled
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_center_point
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_mark_dirty
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_from_parent
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_frame
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_frame
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_hidden
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.light_enable
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.light_enable_interaction
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.psleep   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_init_current_app
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_get_handle
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load_byte_range
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_deinit_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_init_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_deinit_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_init_container
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_src_ic
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_angle
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_click_config_provider
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_background_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_render
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_fullscreen
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.sin_lookup
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.string_format_time
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_get_text
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_background_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_double_pulse
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_enqueue_custom_pattern
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_long_pulse
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_short_pulse
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_get_current_graphics_context
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_is_24h_style
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init_layer_frame
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_alignment
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_bitmap_in_rect
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_text_draw
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_bounds
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_bounds
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_update_proc
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_child_layers
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_below_sibling
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_above_sibling
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_hidden
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_clips
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_clips
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_get_max_used_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_overflow_mode
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_text_layout_get_max_used_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.inverter_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_bitmap
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_alignment
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_background_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_compositing_mode
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_deinit
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_recognizer_get_button_id
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_number_of_clicks_counted
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_basic_draw
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_title_draw
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_basic_header_draw
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_layer
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_callbacks
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_click_config_onto_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_selected_next
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_selected_index
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_reload_data
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_index_compare
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_add_child
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_click_config_onto_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_callbacks
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_context
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_content_offset
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_offset
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_content_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_frame
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_up_click_handler
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_down_click_handler
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_layer
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_selected_index
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_set_selected_index
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_deinit
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_click_config_provider_with_context
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_click_config_provider
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_window_handlers
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_root_layer
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_fullscreen
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_status_bar_icon
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_is_loaded
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_pop
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_pop_all
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_contains_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_get_top_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_remove
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_int16
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_gpoint
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_grect
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_deinit
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_set
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_get
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_begin
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_data
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_cstring
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint16
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint32
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int8
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int16
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int32
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_end
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_read_begin_from_buffer
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer_with_iter
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_tuplet
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size_from_tuplets
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_merge
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_context
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_click_config_provider
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_icon
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_clear_icon
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_add_to_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_remove_from_window
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_background_color
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_init
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_label
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_max
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_min
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_value
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_step_size
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_get_value
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_copy_time_string
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_as_sub_bitmap
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_with_data
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_comm_set_sniff_interval
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_log  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_rect
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_cancel
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_selected_index
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpoint_equal
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_contains_point
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_align
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_clip
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_crop
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_equal
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_is_empty
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_standardize
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gsize_equal
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rand     0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.srand    0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.snprintf
+                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strcmp   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncmp  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strcpy   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncpy  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strcat   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncat  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strlen   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.memcpy   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.memmove  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time     0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time_ms  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .eh_frame      0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .text          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .bss           0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .init          0x00000000        0x8 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .fini          0x00000000        0x8 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+APP              0x00000000         0x00006000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+LOAD src/http.c.1.o
+LOAD src/main.c.1.o
+LOAD /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a
+START GROUP
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.header         0x00000000       0x7c
+ *(.pbl_header)
+ .pbl_header    0x00000000       0x7c src/main.c.1.o
+                0x00000000                __pbl_app_info
+
+.rodata         0x0000007c       0x10
+ .rodata        0x0000007c       0x10 src/main.c.1.o
+
+.rodata.str1.1  0x0000008c       0x30
+ .rodata.str1.1
+                0x0000008c       0x30 src/main.c.1.o
+
+.text           0x000000bc      0x300
+ *(.text)
+ .text          0x000000bc       0x14 /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text          0x000000d0      0x2a0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+                0x000000d0                __mulsf3
+                0x000000d0                __aeabi_fmul
+                0x00000238                __divsf3
+                0x00000238                __aeabi_fdiv
+ .text          0x00000370       0x4c /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+                0x00000370                __fixsfsi
+                0x00000370                __aeabi_f2iz
+
+.glue_7         0x000003bc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000003bc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000003bc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000003bc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000003bc        0x0
+ .iplt          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.text.app_send_failed
+                0x000003bc       0x18
+ .text.app_send_failed
+                0x000003bc       0x18 src/http.c.1.o
+
+.text.app_dropped
+                0x000003d4       0x1c
+ .text.app_dropped
+                0x000003d4       0x1c src/http.c.1.o
+
+.text.http_register_callbacks
+                0x000003f0       0xa0
+ .text.http_register_callbacks
+                0x000003f0       0xa0 src/http.c.1.o
+                0x000003f0                http_register_callbacks
+
+.text.floatFromUint32
+                0x00000490        0x2
+ .text.floatFromUint32
+                0x00000490        0x2 src/http.c.1.o
+                0x00000490                floatFromUint32
+
+.text.app_received
+                0x00000494      0x298
+ .text.app_received
+                0x00000494      0x298 src/http.c.1.o
+
+.text.http_location_request
+                0x0000072c       0x2a
+ .text.http_location_request
+                0x0000072c       0x2a src/http.c.1.o
+                0x0000072c                http_location_request
+
+.text.http_set_app_id
+                0x00000758        0xc
+ .text.http_set_app_id
+                0x00000758        0xc src/http.c.1.o
+                0x00000758                http_set_app_id
+
+.text.handle_init
+                0x00000764       0xf8
+ .text.handle_init
+                0x00000764       0xf8 src/main.c.1.o
+                0x00000764                handle_init
+
+.text.itoa      0x0000085c       0x58
+ .text.itoa     0x0000085c       0x58 src/main.c.1.o
+                0x0000085c                itoa
+
+.text.location  0x000008b4       0xa0
+ .text.location
+                0x000008b4       0xa0 src/main.c.1.o
+                0x000008b4                location
+
+.text.pbl_main  0x00000954       0x34
+ .text.pbl_main
+                0x00000954       0x34 src/main.c.1.o
+                0x00000954                pbl_main
+
+.text.app_event_loop
+                0x00000988        0xc
+ .text.app_event_loop
+                0x00000988        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000988                app_event_loop
+
+.text.fonts_get_system_font
+                0x00000994        0xc
+ .text.fonts_get_system_font
+                0x00000994        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000994                fonts_get_system_font
+
+.text.layer_add_child
+                0x000009a0        0xc
+ .text.layer_add_child
+                0x000009a0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009a0                layer_add_child
+
+.text.window_init
+                0x000009ac        0xc
+ .text.window_init
+                0x000009ac        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009ac                window_init
+
+.text.window_stack_push
+                0x000009b8        0xc
+ .text.window_stack_push
+                0x000009b8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009b8                window_stack_push
+
+.text.text_layer_init
+                0x000009c4        0xc
+ .text.text_layer_init
+                0x000009c4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009c4                text_layer_init
+
+.text.text_layer_set_text
+                0x000009d0        0xc
+ .text.text_layer_set_text
+                0x000009d0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009d0                text_layer_set_text
+
+.text.text_layer_set_font
+                0x000009dc        0xc
+ .text.text_layer_set_font
+                0x000009dc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009dc                text_layer_set_font
+
+.text.app_message_register_callbacks
+                0x000009e8        0xc
+ .text.app_message_register_callbacks
+                0x000009e8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009e8                app_message_register_callbacks
+
+.text.app_message_deregister_callbacks
+                0x000009f4        0xc
+ .text.app_message_deregister_callbacks
+                0x000009f4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000009f4                app_message_deregister_callbacks
+
+.text.app_message_out_get
+                0x00000a00        0xc
+ .text.app_message_out_get
+                0x00000a00        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a00                app_message_out_get
+
+.text.app_message_out_send
+                0x00000a0c        0xc
+ .text.app_message_out_send
+                0x00000a0c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a0c                app_message_out_send
+
+.text.app_message_out_release
+                0x00000a18        0xc
+ .text.app_message_out_release
+                0x00000a18        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a18                app_message_out_release
+
+.text.dict_write_uint8
+                0x00000a24        0xc
+ .text.dict_write_uint8
+                0x00000a24        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a24                dict_write_uint8
+
+.text.dict_read_next
+                0x00000a30        0xc
+ .text.dict_read_next
+                0x00000a30        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a30                dict_read_next
+
+.text.dict_read_first
+                0x00000a3c        0xc
+ .text.dict_read_first
+                0x00000a3c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a3c                dict_read_first
+
+.text.dict_find
+                0x00000a48        0xc
+ .text.dict_find
+                0x00000a48        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a48                dict_find
+
+.text.memset    0x00000a54        0xc
+ .text.memset   0x00000a54        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000a54                memset
+
+.rel.dyn        0x00000a60        0x0
+ .rel.iplt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .rel.got       0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.data           0x00000a60        0x4
+ *(.data)
+ .data          0x00000a60        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .data          0x00000a60        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x00000a60                __dso_handle
+ .data          0x00000a64        0x0 src/http.c.1.o
+ .data          0x00000a64        0x0 src/main.c.1.o
+ .data          0x00000a64        0x0 /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .data          0x00000a64        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000a64        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000a64        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .data          0x00000a64        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.igot.plt       0x00000a64        0x0
+ .igot.plt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got            0x00000a64        0xc
+ .got           0x00000a64        0xc /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got.plt        0x00000a70        0xc
+ .got.plt       0x00000a70        0xc /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00000a70                _GLOBAL_OFFSET_TABLE_
+
+.data.lon.6487  0x00000a7c       0x12
+ .data.lon.6487
+                0x00000a7c       0x12 src/main.c.1.o
+
+.data.lat.6486  0x00000a8e       0x11
+ .data.lat.6486
+                0x00000a8e       0x11 src/main.c.1.o
+
+.bss            0x00000aa0       0xc8
+ *(.bss)
+ COMMON         0x00000aa0       0xc8 src/main.c.1.o
+                0x00000aa0                latLayer
+                0x00000ad8                window
+                0x00000b30                lonLayer
+
+.bss.our_app_id
+                0x00000b68        0x4
+ .bss.our_app_id
+                0x00000b68        0x4 src/http.c.1.o
+
+.bss.app_callbacks
+                0x00000b6c       0x1c
+ .bss.app_callbacks
+                0x00000b6c       0x1c src/http.c.1.o
+
+.bss.http_callbacks
+                0x00000b88       0x28
+ .bss.http_callbacks
+                0x00000b88       0x28 src/http.c.1.o
+
+.bss.callbacks_registered
+                0x00000bb0        0x1
+ .bss.callbacks_registered
+                0x00000bb0        0x1 src/http.c.1.o
+
+.bss.located    0x00000bb1        0x1
+ .bss.located   0x00000bb1        0x1 src/main.c.1.o
+
+.bss.our_latitude
+                0x00000bb4        0x4
+ .bss.our_latitude
+                0x00000bb4        0x4 src/main.c.1.o
+
+.bss.our_longitude
+                0x00000bb8        0x4
+ .bss.our_longitude
+                0x00000bb8        0x4 src/main.c.1.o
+
+.bss.buf.6466   0x00000bbc        0xe
+ .bss.buf.6466  0x00000bbc        0xe src/main.c.1.o
+
+DISCARD
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+ *(.eh_frame)
+OUTPUT(/home/benjamin/pebble-dev/Projects/GPS_Coords/build/pebble-app.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x27
+ .ARM.attributes
+                0x00000000       0x1b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .ARM.attributes
+                0x0000001b       0x2b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000046       0x33 src/http.c.1.o
+ .ARM.attributes
+                0x00000079       0x33 src/main.c.1.o
+ .ARM.attributes
+                0x000000ac       0x21 /home/benjamin/pebble-dev/Projects/GPS_Coords/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .ARM.attributes
+                0x000000cd       0x1b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x000000e8       0x1b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000103       0x2b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .ARM.attributes
+                0x0000012e       0x1b /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.comment        0x00000000       0x4e
+ .comment       0x00000000       0x4e /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                                 0x4f (size before relaxing)
+ .comment       0x00000000       0x4f src/http.c.1.o
+ .comment       0x00000000       0x4f src/main.c.1.o
+ .comment       0x00000000       0x4f /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+
+.debug_line     0x00000000      0x8bc
+ .debug_line    0x00000000       0x71 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_line    0x00000071      0x3ed src/http.c.1.o
+ .debug_line    0x0000045e      0x20c src/main.c.1.o
+ .debug_line    0x0000066a      0x150 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x000007ba       0x8d /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_line    0x00000847       0x75 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_info     0x00000000     0x2b4b
+ .debug_info    0x00000000       0x93 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_info    0x00000093     0x132a src/http.c.1.o
+ .debug_info    0x000013bd     0x1575 src/main.c.1.o
+ .debug_info    0x00002932       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x000029f5       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_info    0x00002ab8       0x93 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_abbrev   0x00000000      0x59a
+ .debug_abbrev  0x00000000       0x12 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_abbrev  0x00000012      0x319 src/http.c.1.o
+ .debug_abbrev  0x0000032b      0x235 src/main.c.1.o
+ .debug_abbrev  0x00000560       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x00000574       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_abbrev  0x00000588       0x12 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_aranges  0x00000000      0x1b0
+ .debug_aranges
+                0x00000000       0x28 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_aranges
+                0x00000028       0xe8 src/http.c.1.o
+ .debug_aranges
+                0x00000110       0x38 src/main.c.1.o
+ .debug_aranges
+                0x00000148       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x00000168       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_aranges
+                0x00000188       0x28 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_ranges   0x00000000      0x1e8
+ .debug_ranges  0x00000000       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_ranges  0x00000020      0x180 src/http.c.1.o
+ .debug_ranges  0x000001a0       0x28 src/main.c.1.o
+ .debug_ranges  0x000001c8       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_loc      0x00000000     0x10d6
+ .debug_loc     0x00000000      0xeef src/http.c.1.o
+ .debug_loc     0x00000eef      0x1e7 src/main.c.1.o
+
+.debug_str      0x00000000     0x12bf
+ .debug_str     0x00000000      0x9b2 src/http.c.1.o
+                                0xab0 (size before relaxing)
+ .debug_str     0x000009b2      0x90d src/main.c.1.o
+                                0xea4 (size before relaxing)
+
+.debug_frame    0x00000000      0x390
+ .debug_frame   0x00000000      0x308 src/http.c.1.o
+ .debug_frame   0x00000308       0x88 src/main.c.1.o
