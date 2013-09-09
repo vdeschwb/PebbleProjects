@@ -1,4 +1,5 @@
 #include "pebble_os.h"
+#include <math.h>
 #include "pebble_app.h"
 #include "pebble_fonts.h"
 
@@ -10,7 +11,7 @@
 #define MY_UUID { 0x91, 0x41, 0xB6, 0x28, 0xBC, 0x89, 0x49, 0x8E, 0xB1, 0x47, 0x04, 0x9F, 0x49, 0xC0, 0x99, 0xAD }
 PBL_APP_INFO(HTTP_UUID,
              "GPS Coords. PasMoche", "Benjamin von Deschwanden",
-             1, 0, /* App version */
+             1, 1, /* App version */
              RESOURCE_ID_MENU_ICON,
              APP_INFO_STANDARD_APP);
 
@@ -34,8 +35,8 @@ void location(float latitude, float longitude, float altitude, float alturacy, v
 	located = true;
 
 	int lat_deg = latitude;
-    	int lat_min = (latitude-lat_deg) * 60;
-    	int lat_sec = ((latitude-lat_deg) * 60 - lat_min) * 60;
+    	int lat_min = (fabs(latitude) - fabs(lat_deg)) * 60;
+    	int lat_sec = ((fabs(latitude) - fabs(lat_deg)) * 60 - lat_min) * 60;
 
 	currpos = 10;
     	memcpy(&lat[currpos], itoa(lat_deg), strlen(itoa(lat_deg)));
@@ -54,8 +55,8 @@ void location(float latitude, float longitude, float altitude, float alturacy, v
 
 
    	int lon_deg = longitude;
-    	int lon_min = (longitude-lon_deg) * 60;
-    	int lon_sec = ((longitude-lon_deg) * 60 - lon_min) * 60;
+    	int lon_min = (fabs(longitude) - fabs(lon_deg)) * 60;
+    	int lon_sec = ((fabs(longitude) - fabs(lon_deg)) * 60 - lon_min) * 60;
 
 
     	currpos = 11;
