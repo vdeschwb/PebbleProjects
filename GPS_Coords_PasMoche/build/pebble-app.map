@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                              src/main.c.1.o (app_event_loop)
+                              src/main.c.1.o (app_timer_send_event)
 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
                               src/main.c.1.o (__aeabi_dsub)
 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
@@ -14,9 +14,12 @@ Archive member included because of file (symbol)
 Allocating common symbols
 Common symbol       size              file
 
+mainWindow          0x58              src/main.c.1.o
 latLayer            0x38              src/main.c.1.o
+setValueLayer       0x38              src/main.c.1.o
 altLayer            0x38              src/main.c.1.o
-window              0x58              src/main.c.1.o
+settingsWindow      0x58              src/main.c.1.o
+setTitleLayer       0x38              src/main.c.1.o
 lonLayer            0x38              src/main.c.1.o
 
 Discarded input sections
@@ -95,10 +98,6 @@ Discarded input sections
  .text.animation_unschedule_all
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.animation_is_scheduled
-                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text.app_timer_send_event
-                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text.app_timer_cancel_event
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.bmp_init_container
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
@@ -343,8 +342,6 @@ Discarded input sections
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.window_stack_contains_window
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text.window_stack_get_top_window
-                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.window_stack_remove
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.property_animation_init
@@ -464,9 +461,6 @@ Discarded input sections
                 0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.rand     0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.srand    0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text.snprintf
-                0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text.strcmp   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.strncmp  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.strcpy   0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
  .text.strncpy  0x00000000        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
@@ -513,330 +507,465 @@ LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/t
  .pbl_header    0x00000000       0x7c src/main.c.1.o
                 0x00000000                __pbl_app_info
 
-.rodata         0x0000007c       0x20
- .rodata        0x0000007c       0x20 src/main.c.1.o
+.rodata         0x0000007c       0x30
+ .rodata        0x0000007c       0x30 src/main.c.1.o
 
-.rodata.str1.1  0x0000009c       0x3f
+.rodata.str1.1  0x000000ac       0xc8
  .rodata.str1.1
-                0x0000009c       0x3f src/main.c.1.o
-                                 0x40 (size before relaxing)
+                0x000000ac       0xc8 src/main.c.1.o
+                                 0xc9 (size before relaxing)
 
-.text           0x000000dc      0x844
+.rodata.autoupdate_time_values.6956
+                0x00000174       0x24
+ .rodata.autoupdate_time_values.6956
+                0x00000174       0x24 src/main.c.1.o
+
+.text           0x00000198      0x844
  *(.text)
- .text          0x000000dc       0x14 /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .text          0x000000f0      0x370 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
-                0x000000f0                __aeabi_drsub
-                0x000000f8                __aeabi_dsub
-                0x000000f8                __subdf3
-                0x000000fc                __adddf3
-                0x000000fc                __aeabi_dadd
-                0x00000374                __aeabi_ui2d
-                0x00000374                __floatunsidf
-                0x00000394                __floatsidf
-                0x00000394                __aeabi_i2d
-                0x000003b8                __extendsfdf2
-                0x000003b8                __aeabi_f2d
-                0x000003f4                __aeabi_ul2d
-                0x000003f4                __floatundidf
-                0x00000404                __floatdidf
-                0x00000404                __aeabi_l2d
- .text          0x00000460      0x424 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
-                0x00000460                __aeabi_dmul
-                0x00000460                __muldf3
-                0x000006b4                __aeabi_ddiv
-                0x000006b4                __divdf3
- .text          0x00000884       0x50 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
-                0x00000884                __fixdfsi
-                0x00000884                __aeabi_d2iz
- .text          0x000008d4       0x4c /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
-                0x000008d4                __fixsfsi
-                0x000008d4                __aeabi_f2iz
+ .text          0x00000198       0x14 /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text          0x000001ac      0x370 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                0x000001ac                __aeabi_drsub
+                0x000001b4                __aeabi_dsub
+                0x000001b4                __subdf3
+                0x000001b8                __adddf3
+                0x000001b8                __aeabi_dadd
+                0x00000430                __aeabi_ui2d
+                0x00000430                __floatunsidf
+                0x00000450                __floatsidf
+                0x00000450                __aeabi_i2d
+                0x00000474                __extendsfdf2
+                0x00000474                __aeabi_f2d
+                0x000004b0                __aeabi_ul2d
+                0x000004b0                __floatundidf
+                0x000004c0                __floatdidf
+                0x000004c0                __aeabi_l2d
+ .text          0x0000051c      0x424 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+                0x0000051c                __aeabi_dmul
+                0x0000051c                __muldf3
+                0x00000770                __aeabi_ddiv
+                0x00000770                __divdf3
+ .text          0x00000940       0x50 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+                0x00000940                __fixdfsi
+                0x00000940                __aeabi_d2iz
+ .text          0x00000990       0x4c /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+                0x00000990                __fixsfsi
+                0x00000990                __aeabi_f2iz
 
-.glue_7         0x00000920        0x0
+.glue_7         0x000009dc        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00000920        0x0
+.glue_7t        0x000009dc        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000920        0x0
+.vfp11_veneer   0x000009dc        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00000920        0x0
+.v4_bx          0x000009dc        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00000920        0x0
+.iplt           0x000009dc        0x0
  .iplt          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
 .text.app_send_failed
-                0x00000920       0x18
+                0x000009dc       0x18
  .text.app_send_failed
-                0x00000920       0x18 src/http.c.1.o
+                0x000009dc       0x18 src/http.c.1.o
 
 .text.app_dropped
-                0x00000938       0x1c
+                0x000009f4       0x1c
  .text.app_dropped
-                0x00000938       0x1c src/http.c.1.o
+                0x000009f4       0x1c src/http.c.1.o
 
 .text.http_register_callbacks
-                0x00000954       0xa0
+                0x00000a10       0xa0
  .text.http_register_callbacks
-                0x00000954       0xa0 src/http.c.1.o
-                0x00000954                http_register_callbacks
+                0x00000a10       0xa0 src/http.c.1.o
+                0x00000a10                http_register_callbacks
 
 .text.floatFromUint32
-                0x000009f4        0x2
+                0x00000ab0        0x2
  .text.floatFromUint32
-                0x000009f4        0x2 src/http.c.1.o
-                0x000009f4                floatFromUint32
+                0x00000ab0        0x2 src/http.c.1.o
+                0x00000ab0                floatFromUint32
 
 .text.app_received
-                0x000009f8      0x298
+                0x00000ab4      0x298
  .text.app_received
-                0x000009f8      0x298 src/http.c.1.o
+                0x00000ab4      0x298 src/http.c.1.o
 
 .text.http_location_request
-                0x00000c90       0x2a
+                0x00000d4c       0x2a
  .text.http_location_request
-                0x00000c90       0x2a src/http.c.1.o
-                0x00000c90                http_location_request
+                0x00000d4c       0x2a src/http.c.1.o
+                0x00000d4c                http_location_request
 
 .text.http_set_app_id
-                0x00000cbc        0xc
+                0x00000d78        0xc
  .text.http_set_app_id
-                0x00000cbc        0xc src/http.c.1.o
-                0x00000cbc                http_set_app_id
+                0x00000d78        0xc src/http.c.1.o
+                0x00000d78                http_set_app_id
 
 .text.config_provider
-                0x00000cc8       0x10
+                0x00000d84       0x4c
  .text.config_provider
-                0x00000cc8       0x10 src/main.c.1.o
-                0x00000cc8                config_provider
-
-.text.handle_init
-                0x00000cd8      0x138
- .text.handle_init
-                0x00000cd8      0x138 src/main.c.1.o
-                0x00000cd8                handle_init
+                0x00000d84       0x4c src/main.c.1.o
+                0x00000d84                config_provider
 
 .text.select_single_click_handler
-                0x00000e10       0x4c
+                0x00000dd0       0x4c
  .text.select_single_click_handler
-                0x00000e10       0x4c src/main.c.1.o
-                0x00000e10                select_single_click_handler
+                0x00000dd0       0x4c src/main.c.1.o
+                0x00000dd0                select_single_click_handler
 
-.text.itoa      0x00000e5c       0x58
- .text.itoa     0x00000e5c       0x58 src/main.c.1.o
-                0x00000e5c                itoa
+.text.itoa      0x00000e1c       0x58
+ .text.itoa     0x00000e1c       0x58 src/main.c.1.o
+                0x00000e1c                itoa
 
-.text.location  0x00000eb4      0x2cc
+.text.update_screen
+                0x00000e74      0x33c
+ .text.update_screen
+                0x00000e74      0x33c src/main.c.1.o
+                0x00000e74                update_screen
+
+.text.location  0x000011b0       0x24
  .text.location
-                0x00000eb4      0x2cc src/main.c.1.o
-                0x00000eb4                location
+                0x000011b0       0x24 src/main.c.1.o
+                0x000011b0                location
 
-.text.pbl_main  0x00001180       0x34
+.text.show_config
+                0x000011d4       0x54
+ .text.show_config
+                0x000011d4       0x54 src/main.c.1.o
+                0x000011d4                show_config
+
+.text.select_long_click_handler
+                0x00001228       0x4c
+ .text.select_long_click_handler
+                0x00001228       0x4c src/main.c.1.o
+                0x00001228                select_long_click_handler
+
+.text.set_timer
+                0x00001274       0x30
+ .text.set_timer
+                0x00001274       0x30 src/main.c.1.o
+                0x00001274                set_timer
+
+.text.handle_init
+                0x000012a4      0x1ec
+ .text.handle_init
+                0x000012a4      0x1ec src/main.c.1.o
+                0x000012a4                handle_init
+
+.text.handle_timer
+                0x00001490       0x30
+ .text.handle_timer
+                0x00001490       0x30 src/main.c.1.o
+                0x00001490                handle_timer
+
+.text.set_autoupdate_handler
+                0x000014c0       0x48
+ .text.set_autoupdate_handler
+                0x000014c0       0x48 src/main.c.1.o
+                0x000014c0                set_autoupdate_handler
+
+.text.apply_config
+                0x00001508       0x28
+ .text.apply_config
+                0x00001508       0x28 src/main.c.1.o
+                0x00001508                apply_config
+
+.text.down_single_click_handler
+                0x00001530       0x3c
+ .text.down_single_click_handler
+                0x00001530       0x3c src/main.c.1.o
+                0x00001530                down_single_click_handler
+
+.text.up_single_click_handler
+                0x0000156c       0x28
+ .text.up_single_click_handler
+                0x0000156c       0x28 src/main.c.1.o
+                0x0000156c                up_single_click_handler
+
+.text.pbl_main  0x00001594       0x3c
  .text.pbl_main
-                0x00001180       0x34 src/main.c.1.o
-                0x00001180                pbl_main
+                0x00001594       0x3c src/main.c.1.o
+                0x00001594                pbl_main
+
+.text.app_timer_send_event
+                0x000015d0        0xc
+ .text.app_timer_send_event
+                0x000015d0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000015d0                app_timer_send_event
+
+.text.app_timer_cancel_event
+                0x000015dc        0xc
+ .text.app_timer_cancel_event
+                0x000015dc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000015dc                app_timer_cancel_event
 
 .text.app_event_loop
-                0x000011b4        0xc
+                0x000015e8        0xc
  .text.app_event_loop
-                0x000011b4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011b4                app_event_loop
+                0x000015e8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000015e8                app_event_loop
 
 .text.fonts_get_system_font
-                0x000011c0        0xc
+                0x000015f4        0xc
  .text.fonts_get_system_font
-                0x000011c0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011c0                fonts_get_system_font
+                0x000015f4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000015f4                fonts_get_system_font
 
 .text.layer_add_child
-                0x000011cc        0xc
+                0x00001600        0xc
  .text.layer_add_child
-                0x000011cc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011cc                layer_add_child
+                0x00001600        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001600                layer_add_child
 
 .text.window_init
-                0x000011d8        0xc
+                0x0000160c        0xc
  .text.window_init
-                0x000011d8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011d8                window_init
+                0x0000160c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000160c                window_init
 
 .text.window_stack_push
-                0x000011e4        0xc
+                0x00001618        0xc
  .text.window_stack_push
-                0x000011e4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011e4                window_stack_push
+                0x00001618        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001618                window_stack_push
 
 .text.window_set_click_config_provider
-                0x000011f0        0xc
+                0x00001624        0xc
  .text.window_set_click_config_provider
-                0x000011f0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011f0                window_set_click_config_provider
+                0x00001624        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001624                window_set_click_config_provider
 
 .text.text_layer_init
-                0x000011fc        0xc
+                0x00001630        0xc
  .text.text_layer_init
-                0x000011fc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000011fc                text_layer_init
+                0x00001630        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001630                text_layer_init
 
 .text.text_layer_set_text
-                0x00001208        0xc
+                0x0000163c        0xc
  .text.text_layer_set_text
-                0x00001208        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001208                text_layer_set_text
+                0x0000163c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000163c                text_layer_set_text
 
 .text.text_layer_set_font
-                0x00001214        0xc
+                0x00001648        0xc
  .text.text_layer_set_font
-                0x00001214        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001214                text_layer_set_font
+                0x00001648        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001648                text_layer_set_font
+
+.text.window_stack_get_top_window
+                0x00001654        0xc
+ .text.window_stack_get_top_window
+                0x00001654        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001654                window_stack_get_top_window
 
 .text.app_message_register_callbacks
-                0x00001220        0xc
+                0x00001660        0xc
  .text.app_message_register_callbacks
-                0x00001220        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001220                app_message_register_callbacks
+                0x00001660        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001660                app_message_register_callbacks
 
 .text.app_message_deregister_callbacks
-                0x0000122c        0xc
+                0x0000166c        0xc
  .text.app_message_deregister_callbacks
-                0x0000122c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000122c                app_message_deregister_callbacks
+                0x0000166c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000166c                app_message_deregister_callbacks
 
 .text.app_message_out_get
-                0x00001238        0xc
+                0x00001678        0xc
  .text.app_message_out_get
-                0x00001238        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001238                app_message_out_get
+                0x00001678        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001678                app_message_out_get
 
 .text.app_message_out_send
-                0x00001244        0xc
+                0x00001684        0xc
  .text.app_message_out_send
-                0x00001244        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001244                app_message_out_send
+                0x00001684        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001684                app_message_out_send
 
 .text.app_message_out_release
-                0x00001250        0xc
+                0x00001690        0xc
  .text.app_message_out_release
-                0x00001250        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001250                app_message_out_release
+                0x00001690        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001690                app_message_out_release
 
 .text.dict_write_uint8
-                0x0000125c        0xc
+                0x0000169c        0xc
  .text.dict_write_uint8
-                0x0000125c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000125c                dict_write_uint8
+                0x0000169c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000169c                dict_write_uint8
 
 .text.dict_read_next
-                0x00001268        0xc
+                0x000016a8        0xc
  .text.dict_read_next
-                0x00001268        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001268                dict_read_next
+                0x000016a8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016a8                dict_read_next
 
 .text.dict_read_first
-                0x00001274        0xc
+                0x000016b4        0xc
  .text.dict_read_first
-                0x00001274        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001274                dict_read_first
+                0x000016b4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016b4                dict_read_first
 
 .text.dict_find
-                0x00001280        0xc
+                0x000016c0        0xc
  .text.dict_find
-                0x00001280        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001280                dict_find
+                0x000016c0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016c0                dict_find
 
-.text.strlen    0x0000128c        0xc
- .text.strlen   0x0000128c        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000128c                strlen
+.text.snprintf  0x000016cc        0xc
+ .text.snprintf
+                0x000016cc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016cc                snprintf
 
-.text.memset    0x00001298        0xc
- .text.memset   0x00001298        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001298                memset
+.text.strcmp    0x000016d8        0xc
+ .text.strcmp   0x000016d8        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016d8                strcmp
 
-.text.memcpy    0x000012a4        0xc
- .text.memcpy   0x000012a4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000012a4                memcpy
+.text.strlen    0x000016e4        0xc
+ .text.strlen   0x000016e4        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016e4                strlen
 
-.rel.dyn        0x000012b0        0x0
+.text.memset    0x000016f0        0xc
+ .text.memset   0x000016f0        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016f0                memset
+
+.text.memcpy    0x000016fc        0xc
+ .text.memcpy   0x000016fc        0xc /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000016fc                memcpy
+
+.rel.dyn        0x00001708        0x0
  .rel.iplt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .rel.got       0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
-.data           0x000012b0        0x4
+.data           0x00001708        0x4
  *(.data)
- .data          0x000012b0        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .data          0x000012b0        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
-                0x000012b0                __dso_handle
- .data          0x000012b4        0x0 src/http.c.1.o
- .data          0x000012b4        0x0 src/main.c.1.o
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .data          0x000012b4        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .data          0x00001708        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .data          0x00001708        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x00001708                __dso_handle
+ .data          0x0000170c        0x0 src/http.c.1.o
+ .data          0x0000170c        0x0 src/main.c.1.o
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .data          0x0000170c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.igot.plt       0x000012b4        0x0
+.igot.plt       0x0000170c        0x0
  .igot.plt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
-.got            0x000012b4       0x10
- .got           0x000012b4       0x10 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+.got            0x0000170c       0x1c
+ .got           0x0000170c       0x1c /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
-.got.plt        0x000012c4        0xc
- .got.plt       0x000012c4        0xc /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
-                0x000012c4                _GLOBAL_OFFSET_TABLE_
+.got.plt        0x00001728        0xc
+ .got.plt       0x00001728        0xc /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00001728                _GLOBAL_OFFSET_TABLE_
 
-.data.lon.6915  0x000012d0       0x1e
- .data.lon.6915
-                0x000012d0       0x1e src/main.c.1.o
+.data.rel.auto_update
+                0x00001734       0x34
+ .data.rel.auto_update
+                0x00001734       0x34 src/main.c.1.o
 
-.data.lat.6914  0x000012ee       0x1e
- .data.lat.6914
-                0x000012ee       0x1e src/main.c.1.o
+.data.alt.6940  0x00001768       0x1e
+ .data.alt.6940
+                0x00001768       0x1e src/main.c.1.o
 
-.data.degsign.6913
-                0x0000130c        0x3
- .data.degsign.6913
-                0x0000130c        0x3 src/main.c.1.o
+.data.degsign.6937
+                0x00001786        0x3
+ .data.degsign.6937
+                0x00001786        0x3 src/main.c.1.o
 
-.data.alt.6916  0x0000130f       0x1e
- .data.alt.6916
-                0x0000130f       0x1e src/main.c.1.o
+.data.AUTOUPDATE_TIME
+                0x0000178c        0x4
+ .data.AUTOUPDATE_TIME
+                0x0000178c        0x4 src/main.c.1.o
 
-.bss            0x00001330      0x100
+.data.rel.local.representation
+                0x00001790       0x18
+ .data.rel.local.representation
+                0x00001790       0x18 src/main.c.1.o
+
+.data.rel.ro.local.global_configuration
+                0x000017a8        0xc
+ .data.rel.ro.local.global_configuration
+                0x000017a8        0xc src/main.c.1.o
+
+.data.lon.6939  0x000017b4       0x1e
+ .data.lon.6939
+                0x000017b4       0x1e src/main.c.1.o
+
+.data.rel.local.about
+                0x000017d4       0x18
+ .data.rel.local.about
+                0x000017d4       0x18 src/main.c.1.o
+
+.data.lat.6938  0x000017ec       0x1e
+ .data.lat.6938
+                0x000017ec       0x1e src/main.c.1.o
+
+.bss            0x0000180c      0x1c8
  *(.bss)
- COMMON         0x00001330      0x100 src/main.c.1.o
-                0x00001330                latLayer
-                0x00001368                altLayer
-                0x000013a0                window
-                0x000013f8                lonLayer
+ COMMON         0x0000180c      0x1c8 src/main.c.1.o
+                0x0000180c                mainWindow
+                0x00001864                latLayer
+                0x0000189c                setValueLayer
+                0x000018d4                altLayer
+                0x0000190c                settingsWindow
+                0x00001964                setTitleLayer
+                0x0000199c                lonLayer
 
 .bss.our_app_id
-                0x00001430        0x4
+                0x000019d4        0x4
  .bss.our_app_id
-                0x00001430        0x4 src/http.c.1.o
+                0x000019d4        0x4 src/http.c.1.o
 
 .bss.app_callbacks
-                0x00001434       0x1c
+                0x000019d8       0x1c
  .bss.app_callbacks
-                0x00001434       0x1c src/http.c.1.o
+                0x000019d8       0x1c src/http.c.1.o
 
 .bss.http_callbacks
-                0x00001450       0x28
+                0x000019f4       0x28
  .bss.http_callbacks
-                0x00001450       0x28 src/http.c.1.o
+                0x000019f4       0x28 src/http.c.1.o
 
 .bss.callbacks_registered
-                0x00001478        0x1
+                0x00001a1c        0x1
  .bss.callbacks_registered
-                0x00001478        0x1 src/http.c.1.o
+                0x00001a1c        0x1 src/http.c.1.o
 
-.bss.located    0x00001479        0x1
- .bss.located   0x00001479        0x1 src/main.c.1.o
+.bss.current_app_ctx
+                0x00001a20        0x4
+ .bss.current_app_ctx
+                0x00001a20        0x4 src/main.c.1.o
 
-.bss.buf.6894   0x0000147a        0xe
- .bss.buf.6894  0x0000147a        0xe src/main.c.1.o
+.bss.configuration_mode
+                0x00001a24        0x1
+ .bss.configuration_mode
+                0x00001a24        0x1 src/main.c.1.o
+
+.bss.our_alt    0x00001a28        0x4
+ .bss.our_alt   0x00001a28        0x4 src/main.c.1.o
+
+.bss.our_lat    0x00001a2c        0x4
+ .bss.our_lat   0x00001a2c        0x4 src/main.c.1.o
+
+.bss.buf.6894   0x00001a30        0xe
+ .bss.buf.6894  0x00001a30        0xe src/main.c.1.o
+
+.bss.our_lon    0x00001a40        0x4
+ .bss.our_lon   0x00001a40        0x4 src/main.c.1.o
+
+.bss.current_timer
+                0x00001a44        0x4
+ .bss.current_timer
+                0x00001a44        0x4 src/main.c.1.o
 
 DISCARD
  libc.a(*)
@@ -877,70 +1006,70 @@ OUTPUT(/home/benjamin/pebble-dev/Projects/GPS_Coords_PasMoche/build/pebble-app.e
  .comment       0x00000000       0x4f src/main.c.1.o
  .comment       0x00000000       0x4f /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
 
-.debug_line     0x00000000      0xcb9
+.debug_line     0x00000000      0xdbb
  .debug_line    0x00000000       0x71 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .debug_line    0x00000071      0x3f6 src/http.c.1.o
- .debug_line    0x00000467      0x282 src/main.c.1.o
- .debug_line    0x000006e9      0x212 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
- .debug_line    0x000008fb      0x22f /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
- .debug_line    0x00000b2a       0x8d /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
- .debug_line    0x00000bb7       0x8d /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
- .debug_line    0x00000c44       0x75 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .debug_line    0x00000467      0x384 src/main.c.1.o
+ .debug_line    0x000007eb      0x212 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x000009fd      0x22f /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x00000c2c       0x8d /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_line    0x00000cb9       0x8d /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_line    0x00000d46       0x75 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.debug_info     0x00000000     0x2dcb
+.debug_info     0x00000000     0x30ed
  .debug_info    0x00000000       0x93 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .debug_info    0x00000093     0x132a src/http.c.1.o
- .debug_info    0x000013bd     0x166f src/main.c.1.o
- .debug_info    0x00002a2c       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
- .debug_info    0x00002aef       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
- .debug_info    0x00002bb2       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
- .debug_info    0x00002c75       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
- .debug_info    0x00002d38       0x93 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .debug_info    0x000013bd     0x1991 src/main.c.1.o
+ .debug_info    0x00002d4e       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x00002e11       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x00002ed4       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_info    0x00002f97       0xc3 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_info    0x0000305a       0x93 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.debug_abbrev   0x00000000      0x5e8
+.debug_abbrev   0x00000000      0x65e
  .debug_abbrev  0x00000000       0x12 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .debug_abbrev  0x00000012      0x319 src/http.c.1.o
- .debug_abbrev  0x0000032b      0x25b src/main.c.1.o
- .debug_abbrev  0x00000586       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
- .debug_abbrev  0x0000059a       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
- .debug_abbrev  0x000005ae       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
- .debug_abbrev  0x000005c2       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
- .debug_abbrev  0x000005d6       0x12 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .debug_abbrev  0x0000032b      0x2d1 src/main.c.1.o
+ .debug_abbrev  0x000005fc       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x00000610       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x00000624       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_abbrev  0x00000638       0x14 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_abbrev  0x0000064c       0x12 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.debug_aranges  0x00000000      0x200
+.debug_aranges  0x00000000      0x248
  .debug_aranges
                 0x00000000       0x28 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .debug_aranges
                 0x00000028       0xe8 src/http.c.1.o
  .debug_aranges
-                0x00000110       0x48 src/main.c.1.o
+                0x00000110       0x90 src/main.c.1.o
  .debug_aranges
-                0x00000158       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
+                0x000001a0       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_addsubdf3.o)
  .debug_aranges
-                0x00000178       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
+                0x000001c0       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_muldivdf3.o)
  .debug_aranges
-                0x00000198       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
+                0x000001e0       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixdfsi.o)
  .debug_aranges
-                0x000001b8       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
+                0x00000200       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_arm_fixsfsi.o)
  .debug_aranges
-                0x000001d8       0x28 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+                0x00000220       0x28 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.debug_ranges   0x00000000      0x1f8
+.debug_ranges   0x00000000      0x240
  .debug_ranges  0x00000000       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
  .debug_ranges  0x00000020      0x180 src/http.c.1.o
- .debug_ranges  0x000001a0       0x38 src/main.c.1.o
- .debug_ranges  0x000001d8       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .debug_ranges  0x000001a0       0x80 src/main.c.1.o
+ .debug_ranges  0x00000220       0x20 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.debug_loc      0x00000000     0x12df
+.debug_loc      0x00000000     0x1483
  .debug_loc     0x00000000      0xeef src/http.c.1.o
- .debug_loc     0x00000eef      0x3f0 src/main.c.1.o
+ .debug_loc     0x00000eef      0x594 src/main.c.1.o
 
-.debug_str      0x00000000     0x134c
+.debug_str      0x00000000     0x14f8
  .debug_str     0x00000000      0x9ce src/http.c.1.o
                                 0xab9 (size before relaxing)
- .debug_str     0x000009ce      0x97e src/main.c.1.o
-                                0xf2c (size before relaxing)
+ .debug_str     0x000009ce      0xb2a src/main.c.1.o
+                               0x110c (size before relaxing)
 
-.debug_frame    0x00000000      0x3c8
+.debug_frame    0x00000000      0x498
  .debug_frame   0x00000000      0x308 src/http.c.1.o
- .debug_frame   0x00000308       0xc0 src/main.c.1.o
+ .debug_frame   0x00000308      0x190 src/main.c.1.o
