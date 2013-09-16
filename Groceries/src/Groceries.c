@@ -233,7 +233,7 @@ void success(int32_t cookie, int http_status, DictionaryIterator* received, void
         if (num_items > 0) {
             counter = 2;
         } else {
-            text_layer_set_text(&infoLayer, "No items.\nSee http://www.n.ethz.ch/~vdeschwb/Pebble/Groceries for instructions.");
+            text_layer_set_text(&infoLayer, "No items.\nSee http://goo.gl/su3h4K for instructions.");
         }
     } else {
   
@@ -270,7 +270,7 @@ void handle_init(AppContextRef ctx) {
         .load = window_load,
     });
     window_stack_push(&s_window, true /* Animated */);
-    window_set_fullscreen(&s_window, true);
+    window_set_fullscreen(&s_window, false);
 
     http_set_app_id(114548647);
 

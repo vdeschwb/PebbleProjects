@@ -35,7 +35,7 @@ typedef struct {
 void set_autoupdate_handler (void);
 
 //Configurations:
-static configuration auto_update = {"Auto-Update:", 4, (config_handler) set_autoupdate_handler, {"Off", "1 hour", "30 min", "10 min", "1 min", "30 sec", "10 sec", "5 sec", "1 sec", ":END:"}};
+static configuration auto_update = {"Auto-Update:", 5, (config_handler) set_autoupdate_handler, {"Off", "1 hour", "30 min", "10 min", "1 min", "30 sec", "10 sec", "5 sec", "1 sec", ":END:"}};
 static configuration representation = {"Representation:", 0, NULL, {"ddd mm ss", "ddd.dddd", ":END:"}};
 static configuration about = {"About:", 0, NULL, {"by SirTate", "2013", ":END:"}};
 //Global configuration
