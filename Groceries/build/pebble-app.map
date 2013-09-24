@@ -459,565 +459,565 @@ LOAD /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/t
 .rodata         0x0000007c        0x8
  .rodata        0x0000007c        0x8 src/Groceries.c.1.o
 
-.rodata.str1.1  0x00000084       0xe0
+.rodata.str1.1  0x00000084       0xe9
  .rodata.str1.1
-                0x00000084       0xe0 src/Groceries.c.1.o
-                                 0xe1 (size before relaxing)
+                0x00000084       0xe9 src/Groceries.c.1.o
+                                 0xea (size before relaxing)
 
-.text           0x00000164       0x14
+.text           0x00000170       0x14
  *(.text)
- .text          0x00000164       0x14 /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text          0x00000170       0x14 /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
 
-.glue_7         0x00000178        0x0
+.glue_7         0x00000184        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00000178        0x0
+.glue_7t        0x00000184        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000178        0x0
+.vfp11_veneer   0x00000184        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00000178        0x0
+.v4_bx          0x00000184        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00000178        0x0
+.iplt           0x00000184        0x0
  .iplt          0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
 .text.lock_info
-                0x00000178       0x10
+                0x00000184       0x10
  .text.lock_info
-                0x00000178       0x10 src/Groceries.c.1.o
+                0x00000184       0x10 src/Groceries.c.1.o
 
 .text.unlock_info
-                0x00000188       0x10
+                0x00000194       0x10
  .text.unlock_info
-                0x00000188       0x10 src/Groceries.c.1.o
+                0x00000194       0x10 src/Groceries.c.1.o
 
 .text.lists_get_cell_height_callback
-                0x00000198        0x4
+                0x000001a4        0x4
  .text.lists_get_cell_height_callback
-                0x00000198        0x4 src/Groceries.c.1.o
+                0x000001a4        0x4 src/Groceries.c.1.o
 
 .text.lists_get_num_rows_callback
-                0x0000019c        0xc
+                0x000001a8        0xc
  .text.lists_get_num_rows_callback
-                0x0000019c        0xc src/Groceries.c.1.o
+                0x000001a8        0xc src/Groceries.c.1.o
 
 .text.items_get_cell_height_callback
-                0x000001a8        0x4
+                0x000001b4        0x4
  .text.items_get_cell_height_callback
-                0x000001a8        0x4 src/Groceries.c.1.o
+                0x000001b4        0x4 src/Groceries.c.1.o
 
 .text.items_get_num_rows_callback
-                0x000001ac        0xc
+                0x000001b8        0xc
  .text.items_get_num_rows_callback
-                0x000001ac        0xc src/Groceries.c.1.o
+                0x000001b8        0xc src/Groceries.c.1.o
 
 .text.lists_select_long_callback
-                0x000001b8        0x2
+                0x000001c4        0x2
  .text.lists_select_long_callback
-                0x000001b8        0x2 src/Groceries.c.1.o
+                0x000001c4        0x2 src/Groceries.c.1.o
 
-.text.failed    0x000001ba        0x2
- .text.failed   0x000001ba        0x2 src/Groceries.c.1.o
+.text.failed    0x000001c6        0x2
+ .text.failed   0x000001c6        0x2 src/Groceries.c.1.o
 
 .text.items_config_provider
-                0x000001bc       0x48
+                0x000001c8       0x48
  .text.items_config_provider
-                0x000001bc       0x48 src/Groceries.c.1.o
-                0x000001bc                items_config_provider
+                0x000001c8       0x48 src/Groceries.c.1.o
+                0x000001c8                items_config_provider
 
 .text.display_info
-                0x00000204       0x50
+                0x00000210       0x50
  .text.display_info
-                0x00000204       0x50 src/Groceries.c.1.o
+                0x00000210       0x50 src/Groceries.c.1.o
 
 .text.handle_init
-                0x00000254      0x288
+                0x00000260      0x288
  .text.handle_init
-                0x00000254      0x288 src/Groceries.c.1.o
+                0x00000260      0x288 src/Groceries.c.1.o
 
 .text.hide_info
-                0x000004dc       0x58
+                0x000004e8       0x58
  .text.hide_info
-                0x000004dc       0x58 src/Groceries.c.1.o
+                0x000004e8       0x58 src/Groceries.c.1.o
 
 .text.send_request
-                0x00000534       0x44
+                0x00000540       0x44
  .text.send_request
-                0x00000534       0x44 src/Groceries.c.1.o
+                0x00000540       0x44 src/Groceries.c.1.o
 
 .text.reconnect
-                0x00000578        0xa
+                0x00000584        0xa
  .text.reconnect
-                0x00000578        0xa src/Groceries.c.1.o
+                0x00000584        0xa src/Groceries.c.1.o
 
 .text.items_window_load
-                0x00000584       0x14
+                0x00000590       0x14
  .text.items_window_load
-                0x00000584       0x14 src/Groceries.c.1.o
+                0x00000590       0x14 src/Groceries.c.1.o
 
 .text.lists_window_load
-                0x00000598        0xa
+                0x000005a4        0xa
  .text.lists_window_load
-                0x00000598        0xa src/Groceries.c.1.o
+                0x000005a4        0xa src/Groceries.c.1.o
 
 .text.items_todo_list_append
-                0x000005a4       0x30
+                0x000005b0       0x30
  .text.items_todo_list_append
-                0x000005a4       0x30 src/Groceries.c.1.o
+                0x000005b0       0x30 src/Groceries.c.1.o
 
 .text.items_draw_row_callback
-                0x000005d4       0xe4
+                0x000005e0       0xe4
  .text.items_draw_row_callback
-                0x000005d4       0xe4 src/Groceries.c.1.o
+                0x000005e0       0xe4 src/Groceries.c.1.o
 
 .text.lists_draw_row_callback
-                0x000006b8       0xe4
+                0x000006c4       0xe4
  .text.lists_draw_row_callback
-                0x000006b8       0xe4 src/Groceries.c.1.o
+                0x000006c4       0xe4 src/Groceries.c.1.o
 
 .text.items_up_callback
-                0x0000079c       0x14
+                0x000007a8       0x14
  .text.items_up_callback
-                0x0000079c       0x14 src/Groceries.c.1.o
+                0x000007a8       0x14 src/Groceries.c.1.o
 
 .text.items_down_callback
-                0x000007b0       0x14
+                0x000007bc       0x14
  .text.items_down_callback
-                0x000007b0       0x14 src/Groceries.c.1.o
+                0x000007bc       0x14 src/Groceries.c.1.o
 
 .text.lists_select_callback
-                0x000007c4       0x70
+                0x000007d0       0x70
  .text.lists_select_callback
-                0x000007c4       0x70 src/Groceries.c.1.o
+                0x000007d0       0x70 src/Groceries.c.1.o
 
 .text.items_select_callback
-                0x00000834       0x6c
+                0x00000840       0x6c
  .text.items_select_callback
-                0x00000834       0x6c src/Groceries.c.1.o
+                0x00000840       0x6c src/Groceries.c.1.o
 
 .text.items_todo_list_delete
-                0x000008a0       0x38
+                0x000008ac       0x38
  .text.items_todo_list_delete
-                0x000008a0       0x38 src/Groceries.c.1.o
+                0x000008ac       0x38 src/Groceries.c.1.o
 
 .text.items_select_long_callback
-                0x000008d8       0x4c
+                0x000008e4       0x4c
  .text.items_select_long_callback
-                0x000008d8       0x4c src/Groceries.c.1.o
+                0x000008e4       0x4c src/Groceries.c.1.o
 
 .text.items_back_callback
-                0x00000924       0x40
+                0x00000930       0x40
  .text.items_back_callback
-                0x00000924       0x40 src/Groceries.c.1.o
+                0x00000930       0x40 src/Groceries.c.1.o
 
-.text.success   0x00000964      0x1f0
- .text.success  0x00000964      0x1f0 src/Groceries.c.1.o
+.text.success   0x00000970      0x1f0
+ .text.success  0x00000970      0x1f0 src/Groceries.c.1.o
 
-.text.pbl_main  0x00000b54       0x34
+.text.pbl_main  0x00000b60       0x34
  .text.pbl_main
-                0x00000b54       0x34 src/Groceries.c.1.o
-                0x00000b54                pbl_main
+                0x00000b60       0x34 src/Groceries.c.1.o
+                0x00000b60                pbl_main
 
 .text.app_send_failed
-                0x00000b88       0x18
+                0x00000b94       0x18
  .text.app_send_failed
-                0x00000b88       0x18 src/http.c.1.o
+                0x00000b94       0x18 src/http.c.1.o
 
 .text.app_dropped
-                0x00000ba0       0x1c
+                0x00000bac       0x1c
  .text.app_dropped
-                0x00000ba0       0x1c src/http.c.1.o
+                0x00000bac       0x1c src/http.c.1.o
 
 .text.http_out_get
-                0x00000bbc       0x4c
+                0x00000bc8       0x4c
  .text.http_out_get
-                0x00000bbc       0x4c src/http.c.1.o
-                0x00000bbc                http_out_get
+                0x00000bc8       0x4c src/http.c.1.o
+                0x00000bc8                http_out_get
 
 .text.http_out_send
-                0x00000c08       0x10
+                0x00000c14       0x10
  .text.http_out_send
-                0x00000c08       0x10 src/http.c.1.o
-                0x00000c08                http_out_send
+                0x00000c14       0x10 src/http.c.1.o
+                0x00000c14                http_out_send
 
 .text.http_register_callbacks
-                0x00000c18       0xa0
+                0x00000c24       0xa0
  .text.http_register_callbacks
-                0x00000c18       0xa0 src/http.c.1.o
-                0x00000c18                http_register_callbacks
+                0x00000c24       0xa0 src/http.c.1.o
+                0x00000c24                http_register_callbacks
 
 .text.floatFromUint32
-                0x00000cb8        0x2
+                0x00000cc4        0x2
  .text.floatFromUint32
-                0x00000cb8        0x2 src/http.c.1.o
-                0x00000cb8                floatFromUint32
+                0x00000cc4        0x2 src/http.c.1.o
+                0x00000cc4                floatFromUint32
 
 .text.app_received
-                0x00000cbc      0x298
+                0x00000cc8      0x298
  .text.app_received
-                0x00000cbc      0x298 src/http.c.1.o
+                0x00000cc8      0x298 src/http.c.1.o
 
 .text.http_set_app_id
-                0x00000f54        0xc
+                0x00000f60        0xc
  .text.http_set_app_id
-                0x00000f54        0xc src/http.c.1.o
-                0x00000f54                http_set_app_id
+                0x00000f60        0xc src/http.c.1.o
+                0x00000f60                http_set_app_id
 
 .text.app_event_loop
-                0x00000f60        0xc
+                0x00000f6c        0xc
  .text.app_event_loop
-                0x00000f60        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f60                app_event_loop
+                0x00000f6c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000f6c                app_event_loop
 
 .text.fonts_get_system_font
-                0x00000f6c        0xc
+                0x00000f78        0xc
  .text.fonts_get_system_font
-                0x00000f6c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f6c                fonts_get_system_font
+                0x00000f78        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000f78                fonts_get_system_font
 
 .text.graphics_context_set_stroke_color
-                0x00000f78        0xc
+                0x00000f84        0xc
  .text.graphics_context_set_stroke_color
-                0x00000f78        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f78                graphics_context_set_stroke_color
+                0x00000f84        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000f84                graphics_context_set_stroke_color
 
 .text.graphics_context_set_fill_color
-                0x00000f84        0xc
+                0x00000f90        0xc
  .text.graphics_context_set_fill_color
-                0x00000f84        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f84                graphics_context_set_fill_color
+                0x00000f90        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000f90                graphics_context_set_fill_color
 
 .text.graphics_context_set_compositing_mode
-                0x00000f90        0xc
+                0x00000f9c        0xc
  .text.graphics_context_set_compositing_mode
-                0x00000f90        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f90                graphics_context_set_compositing_mode
+                0x00000f9c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000f9c                graphics_context_set_compositing_mode
 
 .text.graphics_fill_rect
-                0x00000f9c        0xc
+                0x00000fa8        0xc
  .text.graphics_fill_rect
-                0x00000f9c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000f9c                graphics_fill_rect
+                0x00000fa8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fa8                graphics_fill_rect
 
 .text.layer_add_child
-                0x00000fa8        0xc
+                0x00000fb4        0xc
  .text.layer_add_child
-                0x00000fa8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fa8                layer_add_child
+                0x00000fb4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fb4                layer_add_child
 
 .text.window_init
-                0x00000fb4        0xc
+                0x00000fc0        0xc
  .text.window_init
-                0x00000fb4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fb4                window_init
+                0x00000fc0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fc0                window_init
 
 .text.window_stack_push
-                0x00000fc0        0xc
+                0x00000fcc        0xc
  .text.window_stack_push
-                0x00000fc0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fc0                window_stack_push
+                0x00000fcc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fcc                window_stack_push
 
 .text.window_set_click_config_provider
-                0x00000fcc        0xc
+                0x00000fd8        0xc
  .text.window_set_click_config_provider
-                0x00000fcc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fcc                window_set_click_config_provider
+                0x00000fd8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fd8                window_set_click_config_provider
 
 .text.window_set_fullscreen
-                0x00000fd8        0xc
+                0x00000fe4        0xc
  .text.window_set_fullscreen
-                0x00000fd8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fd8                window_set_fullscreen
+                0x00000fe4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000fe4                window_set_fullscreen
 
 .text.text_layer_init
-                0x00000fe4        0xc
+                0x00000ff0        0xc
  .text.text_layer_init
-                0x00000fe4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000fe4                text_layer_init
+                0x00000ff0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000ff0                text_layer_init
 
 .text.text_layer_set_text
-                0x00000ff0        0xc
+                0x00000ffc        0xc
  .text.text_layer_set_text
-                0x00000ff0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000ff0                text_layer_set_text
+                0x00000ffc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00000ffc                text_layer_set_text
 
 .text.text_layer_set_background_color
-                0x00000ffc        0xc
+                0x00001008        0xc
  .text.text_layer_set_background_color
-                0x00000ffc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00000ffc                text_layer_set_background_color
+                0x00001008        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001008                text_layer_set_background_color
 
 .text.graphics_text_layout_get_max_used_size
-                0x00001008        0xc
+                0x00001014        0xc
  .text.graphics_text_layout_get_max_used_size
-                0x00001008        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001008                graphics_text_layout_get_max_used_size
+                0x00001014        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001014                graphics_text_layout_get_max_used_size
 
 .text.menu_cell_basic_draw
-                0x00001014        0xc
+                0x00001020        0xc
  .text.menu_cell_basic_draw
-                0x00001014        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001014                menu_cell_basic_draw
+                0x00001020        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001020                menu_cell_basic_draw
 
 .text.menu_layer_init
-                0x00001020        0xc
+                0x0000102c        0xc
  .text.menu_layer_init
-                0x00001020        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001020                menu_layer_init
+                0x0000102c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000102c                menu_layer_init
 
 .text.menu_layer_get_layer
-                0x0000102c        0xc
+                0x00001038        0xc
  .text.menu_layer_get_layer
-                0x0000102c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000102c                menu_layer_get_layer
+                0x00001038        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001038                menu_layer_get_layer
 
 .text.menu_layer_set_callbacks
-                0x00001038        0xc
+                0x00001044        0xc
  .text.menu_layer_set_callbacks
-                0x00001038        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001038                menu_layer_set_callbacks
+                0x00001044        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001044                menu_layer_set_callbacks
 
 .text.menu_layer_set_click_config_onto_window
-                0x00001044        0xc
+                0x00001050        0xc
  .text.menu_layer_set_click_config_onto_window
-                0x00001044        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001044                menu_layer_set_click_config_onto_window
+                0x00001050        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001050                menu_layer_set_click_config_onto_window
 
 .text.menu_layer_set_selected_next
-                0x00001050        0xc
+                0x0000105c        0xc
  .text.menu_layer_set_selected_next
-                0x00001050        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001050                menu_layer_set_selected_next
+                0x0000105c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000105c                menu_layer_set_selected_next
 
 .text.menu_layer_reload_data
-                0x0000105c        0xc
+                0x00001068        0xc
  .text.menu_layer_reload_data
-                0x0000105c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000105c                menu_layer_reload_data
+                0x00001068        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001068                menu_layer_reload_data
 
 .text.window_set_window_handlers
-                0x00001068        0xc
+                0x00001074        0xc
  .text.window_set_window_handlers
-                0x00001068        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001068                window_set_window_handlers
+                0x00001074        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001074                window_set_window_handlers
 
 .text.window_stack_remove
-                0x00001074        0xc
+                0x00001080        0xc
  .text.window_stack_remove
-                0x00001074        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001074                window_stack_remove
+                0x00001080        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001080                window_stack_remove
 
 .text.app_message_register_callbacks
-                0x00001080        0xc
+                0x0000108c        0xc
  .text.app_message_register_callbacks
-                0x00001080        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001080                app_message_register_callbacks
+                0x0000108c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000108c                app_message_register_callbacks
 
 .text.app_message_deregister_callbacks
-                0x0000108c        0xc
+                0x00001098        0xc
  .text.app_message_deregister_callbacks
-                0x0000108c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000108c                app_message_deregister_callbacks
+                0x00001098        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001098                app_message_deregister_callbacks
 
 .text.app_message_out_get
-                0x00001098        0xc
+                0x000010a4        0xc
  .text.app_message_out_get
-                0x00001098        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001098                app_message_out_get
+                0x000010a4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010a4                app_message_out_get
 
 .text.app_message_out_send
-                0x000010a4        0xc
+                0x000010b0        0xc
  .text.app_message_out_send
-                0x000010a4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010a4                app_message_out_send
+                0x000010b0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010b0                app_message_out_send
 
 .text.app_message_out_release
-                0x000010b0        0xc
+                0x000010bc        0xc
  .text.app_message_out_release
-                0x000010b0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010b0                app_message_out_release
+                0x000010bc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010bc                app_message_out_release
 
 .text.dict_write_cstring
-                0x000010bc        0xc
+                0x000010c8        0xc
  .text.dict_write_cstring
-                0x000010bc        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010bc                dict_write_cstring
+                0x000010c8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010c8                dict_write_cstring
 
 .text.dict_write_int8
-                0x000010c8        0xc
+                0x000010d4        0xc
  .text.dict_write_int8
-                0x000010c8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010c8                dict_write_int8
+                0x000010d4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010d4                dict_write_int8
 
 .text.dict_write_int32
-                0x000010d4        0xc
+                0x000010e0        0xc
  .text.dict_write_int32
-                0x000010d4        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010d4                dict_write_int32
+                0x000010e0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010e0                dict_write_int32
 
 .text.dict_read_next
-                0x000010e0        0xc
+                0x000010ec        0xc
  .text.dict_read_next
-                0x000010e0        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010e0                dict_read_next
+                0x000010ec        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010ec                dict_read_next
 
 .text.dict_read_first
-                0x000010ec        0xc
+                0x000010f8        0xc
  .text.dict_read_first
-                0x000010ec        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010ec                dict_read_first
+                0x000010f8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000010f8                dict_read_first
 
 .text.dict_find
-                0x000010f8        0xc
+                0x00001104        0xc
  .text.dict_find
-                0x000010f8        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x000010f8                dict_find
+                0x00001104        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001104                dict_find
 
 .text.menu_layer_get_selected_index
-                0x00001104        0xc
+                0x00001110        0xc
  .text.menu_layer_get_selected_index
-                0x00001104        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001104                menu_layer_get_selected_index
+                0x00001110        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001110                menu_layer_get_selected_index
 
-.text.strcpy    0x00001110        0xc
- .text.strcpy   0x00001110        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001110                strcpy
+.text.strcpy    0x0000111c        0xc
+ .text.strcpy   0x0000111c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x0000111c                strcpy
 
-.text.memset    0x0000111c        0xc
- .text.memset   0x0000111c        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x0000111c                memset
+.text.memset    0x00001128        0xc
+ .text.memset   0x00001128        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001128                memset
 
-.text.memcpy    0x00001128        0xc
- .text.memcpy   0x00001128        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001128                memcpy
+.text.memcpy    0x00001134        0xc
+ .text.memcpy   0x00001134        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001134                memcpy
 
-.text.memmove   0x00001134        0xc
- .text.memmove  0x00001134        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
-                0x00001134                memmove
+.text.memmove   0x00001140        0xc
+ .text.memmove  0x00001140        0xc /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001140                memmove
 
-.rel.dyn        0x00001140        0x0
+.rel.dyn        0x0000114c        0x0
  .rel.iplt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
-.data           0x00001140        0x4
+.data           0x0000114c        0x4
  *(.data)
- .data          0x00001140        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .data          0x00001140        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
-                0x00001140                __dso_handle
- .data          0x00001144        0x0 src/Groceries.c.1.o
- .data          0x00001144        0x0 src/http.c.1.o
- .data          0x00001144        0x0 /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
- .data          0x00001144        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .data          0x00001144        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .data          0x0000114c        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .data          0x0000114c        0x4 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x0000114c                __dso_handle
+ .data          0x00001150        0x0 src/Groceries.c.1.o
+ .data          0x00001150        0x0 src/http.c.1.o
+ .data          0x00001150        0x0 /home/benjamin/pebble-dev/Projects/Groceries/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .data          0x00001150        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .data          0x00001150        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
 
-.igot.plt       0x00001144        0x0
+.igot.plt       0x00001150        0x0
  .igot.plt      0x00000000        0x0 /home/benjamin/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
 
 .bss
  *(.bss)
 
 .bss.x_pebble_id
-                0x00001144        0xc
+                0x00001150        0xc
  .bss.x_pebble_id
-                0x00001144        0xc src/Groceries.c.1.o
+                0x00001150        0xc src/Groceries.c.1.o
 
 .bss.info_locked
-                0x00001150        0x1
+                0x0000115c        0x1
  .bss.info_locked
-                0x00001150        0x1 src/Groceries.c.1.o
+                0x0000115c        0x1 src/Groceries.c.1.o
 
-.bss.num_items  0x00001151        0x1
+.bss.num_items  0x0000115d        0x1
  .bss.num_items
-                0x00001151        0x1 src/Groceries.c.1.o
+                0x0000115d        0x1 src/Groceries.c.1.o
 
 .bss.current_list
-                0x00001152        0x1
+                0x0000115e        0x1
  .bss.current_list
-                0x00001152        0x1 src/Groceries.c.1.o
+                0x0000115e        0x1 src/Groceries.c.1.o
 
 .bss.lists_active_item_count
-                0x00001154        0x4
+                0x00001160        0x4
  .bss.lists_active_item_count
-                0x00001154        0x4 src/Groceries.c.1.o
+                0x00001160        0x4 src/Groceries.c.1.o
 
-.bss.info_on    0x00001158        0x1
- .bss.info_on   0x00001158        0x1 src/Groceries.c.1.o
+.bss.info_on    0x00001164        0x1
+ .bss.info_on   0x00001164        0x1 src/Groceries.c.1.o
 
 .bss.items_active_item_count
-                0x0000115c        0x4
+                0x00001168        0x4
  .bss.items_active_item_count
-                0x0000115c        0x4 src/Groceries.c.1.o
+                0x00001168        0x4 src/Groceries.c.1.o
 
 .bss.lists_menu_layer
-                0x00001160      0x120
+                0x0000116c      0x120
  .bss.lists_menu_layer
-                0x00001160      0x120 src/Groceries.c.1.o
+                0x0000116c      0x120 src/Groceries.c.1.o
 
 .bss.items_menu_layer
-                0x00001280      0x120
+                0x0000128c      0x120
  .bss.items_menu_layer
-                0x00001280      0x120 src/Groceries.c.1.o
+                0x0000128c      0x120 src/Groceries.c.1.o
 
-.bss.infos      0x000013a0       0xff
- .bss.infos     0x000013a0       0xff src/Groceries.c.1.o
+.bss.infos      0x000013ac       0xff
+ .bss.infos     0x000013ac       0xff src/Groceries.c.1.o
 
 .bss.items_window
-                0x000014a0       0x58
+                0x000014ac       0x58
  .bss.items_window
-                0x000014a0       0x58 src/Groceries.c.1.o
+                0x000014ac       0x58 src/Groceries.c.1.o
 
-.bss.num_lists  0x000014f8        0x1
+.bss.num_lists  0x00001504        0x1
  .bss.num_lists
-                0x000014f8        0x1 src/Groceries.c.1.o
+                0x00001504        0x1 src/Groceries.c.1.o
 
 .bss.lists_window
-                0x000014fc       0x58
+                0x00001508       0x58
  .bss.lists_window
-                0x000014fc       0x58 src/Groceries.c.1.o
+                0x00001508       0x58 src/Groceries.c.1.o
 
 .bss.items_menu_list
-                0x00001554      0x9f6
+                0x00001560      0x9f6
  .bss.items_menu_list
-                0x00001554      0x9f6 src/Groceries.c.1.o
+                0x00001560      0x9f6 src/Groceries.c.1.o
 
 .bss.lists_menu_list
-                0x00001f4a      0x9f6
+                0x00001f56      0x9f6
  .bss.lists_menu_list
-                0x00001f4a      0x9f6 src/Groceries.c.1.o
+                0x00001f56      0x9f6 src/Groceries.c.1.o
 
 .bss.items_infoLayer
-                0x00002940       0x38
+                0x0000294c       0x38
  .bss.items_infoLayer
-                0x00002940       0x38 src/Groceries.c.1.o
+                0x0000294c       0x38 src/Groceries.c.1.o
 
 .bss.lists_infoLayer
-                0x00002978       0x38
+                0x00002984       0x38
  .bss.lists_infoLayer
-                0x00002978       0x38 src/Groceries.c.1.o
+                0x00002984       0x38 src/Groceries.c.1.o
 
-.bss.counter    0x000029b0        0x1
- .bss.counter   0x000029b0        0x1 src/Groceries.c.1.o
+.bss.counter    0x000029bc        0x1
+ .bss.counter   0x000029bc        0x1 src/Groceries.c.1.o
 
 .bss.our_app_id
-                0x000029b4        0x4
+                0x000029c0        0x4
  .bss.our_app_id
-                0x000029b4        0x4 src/http.c.1.o
+                0x000029c0        0x4 src/http.c.1.o
 
 .bss.app_callbacks
-                0x000029b8       0x1c
+                0x000029c4       0x1c
  .bss.app_callbacks
-                0x000029b8       0x1c src/http.c.1.o
+                0x000029c4       0x1c src/http.c.1.o
 
 .bss.http_callbacks
-                0x000029d4       0x28
+                0x000029e0       0x28
  .bss.http_callbacks
-                0x000029d4       0x28 src/http.c.1.o
+                0x000029e0       0x28 src/http.c.1.o
 
 .bss.callbacks_registered
-                0x000029fc        0x1
+                0x00002a08        0x1
  .bss.callbacks_registered
-                0x000029fc        0x1 src/http.c.1.o
+                0x00002a08        0x1 src/http.c.1.o
 
 DISCARD
  libc.a(*)

@@ -18,7 +18,7 @@ PBL_APP_INFO(MY_UUID,
 
 // HTTP Definitions :: BEGIN
 #define LIST_HTTP_COOKIE 1949327671
-#define response_script "http://192.168.1.45:80/Pebble/response2.php"  //"http://www.orchester-erstfeld.ch/Pebble/response2.php"
+#define response_script /*"http://192.168.1.45:80/Pebble/response2.php"*/  "http://www.orchester-erstfeld.ch/Pebble/response.php"
 
 #define HTTP_KEY_CMD 1
 #define HTTP_KEY_PARAM_1 2
